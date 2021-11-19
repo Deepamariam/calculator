@@ -24,6 +24,7 @@
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   font-family: "Poppins", sans-serif;
+  position: fixed;
 }
 
 .calculator-display {
@@ -123,4 +124,10 @@
 .arithmetic-ops {
   color: #ef55a0;
   font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .calculator {
+    width: 70%;
+  }
 }
